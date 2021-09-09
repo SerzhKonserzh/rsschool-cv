@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#000;
+}
+header{
+    min-height: 250px;
+    width:70%;
+}
+.aside_container{
+    width:30%;
+    float: left;
+    background-color: gray;
+}
+.container{
+    background-color: gold;
+    width: 1100px;
+    margin: 0 auto;
+}
+.aside_photo{    
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 50%;
+}
+.aside_contacts_text{
+    margin-top: 10px;
+    color:azure;
+    font-size: 40px;
+    text-align: center;
+}
+.aside_contacts_list{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.mail_img{
+    max-width: 70px;
+}
+.telegram_img{
+    max-width: 70px;
+}
+.discord_img{
+    max-width: 70px;
+}

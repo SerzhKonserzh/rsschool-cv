@@ -43,38 +43,6 @@ aside{
 .discord_img{
     max-width: 70px;
 }
-main{
-    padding-top: 40px;
-    width:70%;
-}
-header{
-    background-color: gold;
-    height: 100px;
-}
-.header_title{
-    text-align: center;
-    padding-top: 10px;
-}
-.header_title .header_title_name{
-    margin:0;
-}
-.main_container{
-    margin-top: 20px;
-}
-.info{
-    width:50%;
-    background-color:gold;
-    margin-left: 20px;
-    text-align: center;
-    min-height: 120px;
-}
-.info_title{
-    padding-top: 10px;
-}
-.info_descr{
-    font-size: 20px;
-    padding-bottom: 10px;
-}
 .aside_skills{
     margin-top: 10px; 
     color:azure;
@@ -113,13 +81,49 @@ header{
 .skills_list_bootstrap{
     background-image: url(../img/aside/skills_icons/bootstrap.svg);
 }
+
+main{
+    padding-top: 40px;
+    width:70%;
+}
+header{
+    background-color: gold;
+    height: 100px;
+}
+.header_title{
+    text-align: center;
+    padding-top: 10px;
+}
+.header_title .header_title_name{
+    margin:0;
+}
+.main_container{
+    margin-top: 20px;
+    position: relative;
+}
+.info{
+    width:50%;
+    background-color:gold;
+    margin-left: 20px;
+    text-align: center;
+    min-height: 120px;
+}
+.info_title{
+    padding-top: 10px;
+}
+.info_descr{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
 .work{
     margin-top: 20px;
     width:50%;
     background-color:gold;
     margin-right: 20px;
-    float: right;
+    position: relative;
     min-height: 120px;
+    margin-left: 365px;
 }
 .work_title{
     padding-top: 10px;
@@ -137,11 +141,37 @@ header{
     margin-top: 20px;
     text-align: center;
     min-height: 120px;
-    float: left;
 }
 .education_title{
     padding-top: 10px;
 }
 .education_university{
+    font-size: 20px;
+}
+.aside_english{
+    margin-top: 10px; 
+    color:azure;
+    text-align: center;
+}
+.english_title{
+    font-size: 30px;
+}
+.english_level{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.code_example{
+    width:50%;
+    background-color:gold;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    min-height: 120px;
+}
+.code_title{
+    padding-top: 20px;
+    text-align: center;
+}
+.code_link{
     font-size: 20px;
 }

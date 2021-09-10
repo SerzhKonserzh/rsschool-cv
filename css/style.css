@@ -25,7 +25,7 @@ aside{
 .aside_contacts_text{
     margin-top: 10px;
     color:azure;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 .aside_contacts_list{
@@ -62,11 +62,18 @@ header{
     margin-top: 20px;
 }
 .info{
-    width:40%;
+    width:50%;
     background-color:gold;
     margin-left: 20px;
     text-align: center;
     min-height: 120px;
+}
+.info_title{
+    padding-top: 10px;
+}
+.info_descr{
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 .aside_skills{
     margin-top: 10px; 
@@ -74,7 +81,7 @@ header{
 }
 .skills_title{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 .skills_list{
     list-style: none;
@@ -115,8 +122,11 @@ header{
     min-height: 120px;
 }
 .work_title{
+    padding-top: 10px;
     text-align: center;
 }
 .work_list{
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }

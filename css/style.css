@@ -130,3 +130,18 @@ header{
     padding-bottom: 10px;
     font-size: 20px;
 }
+.education{
+    width:50%;
+    background-color:gold;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    min-height: 120px;
+    float: left;
+}
+.education_title{
+    padding-top: 10px;
+}
+.education_university{
+    font-size: 20px;
+}

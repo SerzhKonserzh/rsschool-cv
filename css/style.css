@@ -66,4 +66,57 @@ header{
     background-color:gold;
     margin-left: 20px;
     text-align: center;
+    min-height: 120px;
+}
+.aside_skills{
+    margin-top: 10px; 
+    color:azure;
+}
+.skills_title{
+    text-align: center;
+    font-size: 40px;
+}
+.skills_list{
+    list-style: none;
+    padding-left: 40px;
+}
+.skills_list li{
+    padding-left: 40px;
+    margin: 10px 0;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+    font-size: 30px;
+}
+.skills_list_html{
+    background-image: url(../img/aside/skills_icons/html.svg);
+}
+.skills_list_css{
+    background-image: url(../img/aside/skills_icons/css-3.svg);
+}
+.skills_list_c{
+    background-image: url(../img/aside/skills_icons/c++.svg);
+}
+.skills_list_git{
+    background-image: url(../img/aside/skills_icons/github.svg);
+}
+.skills_list_sass{
+    background-image: url(../img/aside/skills_icons/sass.svg);
+}
+.skills_list_bootstrap{
+    background-image: url(../img/aside/skills_icons/bootstrap.svg);
+}
+.work{
+    margin-top: 20px;
+    width:50%;
+    background-color:gold;
+    margin-right: 20px;
+    float: right;
+    min-height: 120px;
+}
+.work_title{
+    text-align: center;
+}
+.work_list{
+    padding-left: 20px;
 }

@@ -29,7 +29,7 @@ aside{
     text-align: center;
 }
 .aside_contacts_list{
-    margin-top: 20px;
+    margin-top: 30px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -44,7 +44,7 @@ aside{
     max-width: 70px;
 }
 .aside_skills{
-    margin-top: 10px; 
+    margin-top: 30px; 
     color:azure;
 }
 .skills_title{
@@ -53,6 +53,7 @@ aside{
 }
 .skills_list{
     list-style: none;
+    margin-top: 20px;
     padding-left: 40px;
 }
 .skills_list li{
@@ -81,7 +82,18 @@ aside{
 .skills_list_bootstrap{
     background-image: url(../img/aside/skills_icons/bootstrap.svg);
 }
-
+.aside_english{
+    margin-top: 30px; 
+    color:azure;
+    text-align: center;
+}
+.english_title{
+    font-size: 30px;
+}
+.english_level{
+    font-size: 30px;
+    margin-top: 20px;
+}
 main{
     padding-top: 40px;
     width:70%;
@@ -103,7 +115,7 @@ header{
 }
 .info{
     width:50%;
-    background-color:gold;
+    background-color:azure;
     margin-left: 20px;
     text-align: center;
     min-height: 120px;
@@ -119,7 +131,7 @@ header{
 .work{
     margin-top: 20px;
     width:50%;
-    background-color:gold;
+    background-color:azure;
     margin-right: 20px;
     position: relative;
     min-height: 120px;
@@ -136,7 +148,7 @@ header{
 }
 .education{
     width:50%;
-    background-color:gold;
+    background-color:azure;
     margin-left: 20px;
     margin-top: 20px;
     text-align: center;
@@ -148,21 +160,10 @@ header{
 .education_university{
     font-size: 20px;
 }
-.aside_english{
-    margin-top: 10px; 
-    color:azure;
-    text-align: center;
-}
-.english_title{
-    font-size: 30px;
-}
-.english_level{
-    font-size: 30px;
-    margin-top: 10px;
-}
+
 .code_example{
     width:50%;
-    background-color:gold;
+    background-color:azure;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
@@ -174,4 +175,25 @@ header{
 }
 .code_link{
     font-size: 20px;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:gold;
+    height: 150px;
+}
+.github_link_img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+.rsschool_logo{
+    width:50%;
+    display: block;
+    margin: 0 auto;
+}
+.year{
+    font-size: 30px;
 }

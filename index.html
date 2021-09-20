@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -54,6 +57,7 @@
                             <li class="nav_list_item"><a data-goto=".work" href="#" class="nav_list_item_link">Work</a></li>
                             <li class="nav_list_item"><a data-goto=".education" href="#" class="nav_list_item_link">Education</a></li>
                             <li class="nav_list_item"><a data-goto=".code_example" href="#" class="nav_list_item_link">Code</a></li>
+                            <li class="nav_list_item"><a data-goto=".projects" href="#" class="nav_list_item_link">Projects</a></li>
                         </ul>
                     </div>
                 </div>
@@ -90,7 +94,36 @@
                 <section class="code_example">
                     <h2 class="code_title">Code example:</h2>
                     <div class="divider divider_main"></div>
-                    <a href="https://github.com/SerzhKonserzh/Tanks/blob/main/Game.cpp" class="code_link">Game</a>
+                    <pre>
+                        <code class="code_block">
+var list = ['a', 'B', 'c', 'D'];
+var mapped = list.map(function(el, i) {
+return { index: i, value: el.toLowerCase() };
+});
+mapped.sort(function(a, b) {
+if (a.value > b.value) {
+    return 1; }
+if (a.value < b.value) {
+    return -1; }
+return 0;
+});
+var result = mapped.map(function(el) {
+return list[el.index];
+});
+                        </code>
+                    </pre>
+                </section>
+                <section class="projects">
+                    <h2 class="projects_title">Projects</h2>
+                    <div class="divider divider_main"></div>
+                    <ul class="projects_list">
+                        <li class="projects_list_item">
+                            <a href="https://github.com/SerzhKonserzh/Tanks" class="projects_link"><img src="img/projects/tank_img.jpg" alt="tank_img" class="tanks_img"></a>
+                        </li>
+                        <li class="projects_list_item">
+                            <a href="https://github.com/SerzhKonserzh/Tanks" class="projects_link"><img src="img/projects/tank3d_img.jpg" alt="tank3d_img" class="tanks3d_img"></a>
+                        </li>
+                    </ul>
                 </section>
             </div>
             <footer class="footer">

@@ -11,7 +11,7 @@ body._lock{
 .container{
     background-color: #5F7578; 
     display: flex;
-    width: 1100px;
+    width: 1140px;
     margin: 0 auto;
 }
 .nav{
@@ -73,7 +73,9 @@ aside{
     display: flex;
     justify-content: space-around;
 }
-.mail_img , .telegram_img , .vk_img{
+.mail_img ,
+.telegram_img , 
+.vk_img{
     max-width: 70px;
 }
 .aside_skills{
@@ -203,15 +205,38 @@ header{
     background-color:#f3f6ed;
     margin: 0 auto;
     margin-top: 20px;
-    text-align: center;
     min-height: 120px;
 }
 .code_title{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
-.code_link{
-    font-size: 20px;
+code{
+    margin: 0 auto;
+    width: 80%;
+}
+.projects{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70%;
+    border-radius: 10px;
+    background-color:#f3f6ed;
+    padding-bottom: 10px;
+}
+.projects_title{
+    text-align: center;
+    padding-top: 10px;
+}
+.projects_list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.tanks_img,
+.tanks3d_img{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 .footer{
     margin-top: 20px;
@@ -250,6 +275,9 @@ header{
         display: flex;
         align-items: center;
     }
+    .nav_list_item_link{
+        font-size: 16px;
+    }
     .work , 
     .info , 
     .education{
@@ -257,8 +285,13 @@ header{
         margin: 0 auto;
         margin-top: 20px;
     }
-    .code_example{
+    .code_example,
+    .projects{
         width: 80%;
+    }
+    .tanks_img,
+    .tanks3d_img{
+        width: 150px;
     }
 }
 @media(max-width: 420px){
@@ -365,5 +398,13 @@ header{
     }
     .nav_list_item_link{
         font-size: 24px;
+    }
+    .projects_list{
+        flex-direction: column;
+        align-items:center;
+    }
+    .tanks_img,
+    .tanks3d_img{
+        width: 250px;
     }
 }

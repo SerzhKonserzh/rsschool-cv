@@ -3,17 +3,44 @@
     padding: 0;
 }
 body{
-    background-color:#000;
+    background-color: black;
+}
+body._lock{
+    overflow: hidden;
 }
 .container{
-    background-color: silver; 
+    background-color: #5F7578; 
     display: flex;
-    width: 1100px;
+    width: 1140px;
     margin: 0 auto;
+}
+.nav{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3f6ed;
+}
+.nav_container{
+    max-height: 40px;
+}
+.nav_icon{
+    display: none;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+.nav_list_item_link{
+    text-decoration: none;
+    color: #5C5664;
+    font-size: 20px;
 }
 aside{
     width: 30%;
-    background-color: gray;
+    background-color: #5C5664;
 }
 .aside_photo{    
     display: block;
@@ -23,7 +50,8 @@ aside{
     border-radius: 50%;
 }
 .divider{
-    border-top: 6px solid gold;
+    border-top: 6px solid;
+    border-color: #5e9bae;
     width: 60%;
     margin: 0 auto;
     margin-top: 5px;
@@ -45,12 +73,8 @@ aside{
     display: flex;
     justify-content: space-around;
 }
-.mail_img{
-    max-width: 70px;
-}
-.telegram_img{
-    max-width: 70px;
-}
+.mail_img ,
+.telegram_img , 
 .vk_img{
     max-width: 70px;
 }
@@ -106,11 +130,11 @@ aside{
     margin-top: 20px;
 }
 main{
-    padding-top: 40px;
+    /* padding-top: 40px; */
     width:70%;
 }
 header{
-    background-color: gold;
+    background-color: #8E8C90;
     height: 100px;
 }
 .header_title{
@@ -126,7 +150,8 @@ header{
 }
 .info{
     width:50%;
-    background-color:azure;
+    border-radius: 10px;
+    background-color: #f3f6ed;
     margin-left: 20px;
     text-align: center;
     min-height: 120px;
@@ -142,7 +167,8 @@ header{
 .work{
     margin-top: 20px;
     width:50%;
-    background-color:azure;
+    border-radius: 10px;
+    background-color:#f3f6ed;
     margin-right: 20px;
     position: relative;
     min-height: 120px;
@@ -159,7 +185,8 @@ header{
 }
 .education{
     width:50%;
-    background-color:azure;
+    background-color:#f3f6ed;
+    border-radius: 10px;
     margin-left: 20px;
     margin-top: 20px;
     text-align: center;
@@ -174,25 +201,49 @@ header{
 
 .code_example{
     width:50%;
-    background-color:azure;
+    border-radius: 10px;
+    background-color:#f3f6ed;
     margin: 0 auto;
     margin-top: 20px;
-    text-align: center;
     min-height: 120px;
 }
 .code_title{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
-.code_link{
-    font-size: 20px;
+code{
+    margin: 0 auto;
+    width: 80%;
+}
+.projects{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70%;
+    border-radius: 10px;
+    background-color:#f3f6ed;
+    padding-bottom: 10px;
+}
+.projects_title{
+    text-align: center;
+    padding-top: 10px;
+}
+.projects_list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.tanks_img,
+.tanks3d_img{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 .footer{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:gold;
+    background-color:#8E8C90;
     height: 150px;
 }
 .github_link_img{
@@ -207,4 +258,153 @@ header{
 }
 .year{
     font-size: 30px;
+}
+@media(max-width: 767px){
+    .aside_photo{
+        width: 150px;
+    }
+    .mail_img , 
+    .telegram_img , 
+    .vk_img{
+        width: 47px;
+    }
+    .container{
+        width: 700px;
+    }
+    .nav_list{
+        display: flex;
+        align-items: center;
+    }
+    .nav_list_item_link{
+        font-size: 16px;
+    }
+    .work , 
+    .info , 
+    .education{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .code_example,
+    .projects{
+        width: 80%;
+    }
+    .tanks_img,
+    .tanks3d_img{
+        width: 150px;
+    }
+}
+@media(max-width: 420px){
+    .container{
+        width: 400px;
+        display: block; 
+    }
+    aside{
+        display: block;
+        width:100%;
+        padding-top: 5px;
+    }
+    main{
+        width: 100%;
+        position: relative;
+    }
+    nav{
+        position: absolute;
+        width: 100%;
+        margin-top: -882px;
+    }
+    .nav_list{
+        padding-top: 10px;
+        padding-left: 10px;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .aside_photo{
+        margin-top: 50px;
+    }
+    .mail_img , 
+    .telegram_img , 
+    .vk_img{
+        width: 70px;
+    }  
+    .skills_list{
+        display: table;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .aside_english{
+        padding-bottom: 20px;
+    }
+    .nav_icon{
+        z-index: 10;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        margin-left: 85%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .nav_icon::before, 
+    .nav_icon::after, 
+    .nav_icon span{
+        left: 10px;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #5C5664;
+    }
+    .nav_icon::before, 
+    .nav_icon::after{
+        content: "";
+    }
+    .nav_icon::before{
+        top: 0;
+    } 
+    .nav_icon::after{
+        bottom: 0;
+    } 
+    .nav_icon span{
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+    .nav_body{
+        top: 0;
+        left: 0;
+        transform: translate(-100%,0px);
+        width: 100%;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 0px 0px 30px 0px;
+        transition: left 0.3s ease 0s;
+        overflow: auto;
+    }
+    .nav_body._active{
+        transform: translate(0px,0px);
+    }
+    .nav_body::before{
+        content:"";
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 40px;
+        background-color: #f3f6ed; 
+        z-index: 0;
+    }
+    .nav_list_item{
+        margin: 0px 0px 30px 0px;
+    }
+    .nav_list_item_link{
+        font-size: 24px;
+    }
+    .projects_list{
+        flex-direction: column;
+        align-items:center;
+    }
+    .tanks_img,
+    .tanks3d_img{
+        width: 250px;
+    }
 }

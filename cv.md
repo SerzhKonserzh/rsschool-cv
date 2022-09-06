@@ -26,3 +26,11 @@ function expandedForm(num) {
                     .join(" + ");
 }
 ```
+## Experience
+* [https://vk.com/away.php?to=https%3A%2F%2Fserzhkonserzh.github.io&cc_key=]Portfolio
+##
+## Education
+* BSUIR, System Engineer
+* Udemy Courses(HTML/CSS/JS)
+## English
+B1

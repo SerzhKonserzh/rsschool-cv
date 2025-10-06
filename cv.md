@@ -7,14 +7,14 @@
 * **Discord:** SerzhKonserzh(@SerzhKonserzh)
 * **Github:** [SerzhKonserzh](https://github.com/SerzhKonserzh)
 ## About Me
-I am a fourth-year student of Belarusian State University of Informatics and Radioelectronics. I don't have any work experience, but i have studied Frontend technologies for about a year. 
-If i don't know something,i can easily find necessary information. 
-If i need to solve any task, i will do my best to create effective solution!
+My name is Sergey. I am 23 years old. I graduated from Belarusian State university of informatics and radioelectronica in 2023 with a degree in System engineering. Then i have served in the army. After that I have worked as a software engineer. Now I am looking for an opportunity to develop as a front-end developer.
 ## Skills
 * **HTML**
-* **CSS(SASS)**
+* **CSS(SCSS)**
 * **JavaScript**
-* **JQuery**
+* **TypeScript**
+* **React**
+* **Webpack**
 * **Bootstrap**
 * **Git**
 ## Code Example
@@ -32,5 +32,6 @@ function expandedForm(num) {
 ## Education
 * **BSUIR**, System Engineer
 * **Udemy Courses**, (HTML/CSS/JS)
+* **Skillbox Courses**, (HTML/CSS/JS/TS/React)
 ## English
-**B1**
+**B1+**
